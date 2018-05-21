@@ -1,3 +1,11 @@
+Cardiovascular Abnormality Detection from Compressed ECG Signals
+
+This project is implemented to efficiently detect abnormal ECG segemnts from a compressed ECG signal, using Data Mining techniques. We have used Fast Co-relation based Feature Selection (fcbs) for selecting features that best describe the dataset. Further, EM Clstering has been used to segregate different ECG segements based on the selected features. 
+
+The EM Clustering model is trained with 878 segments of ECG and is further used to classify 439 segments of ECG signal. The entire model takes 3.5 seconds to run. 
+We gained 100% accuracy for training data and 88.0% average accuracy for test data.
+
+
 REQUIREMENTS:
 python version 2 
 python version 3
